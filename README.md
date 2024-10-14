@@ -1,6 +1,6 @@
 ![Frame 514629143](https://github.com/user-attachments/assets/38201386-ccce-472a-913c-e864e5fda5ec)
 
-File2Png tool (WIP for Windows x64, please forget about OsX and Linux). 
+File2Png tool (WIP for Windows x64, please forget about MacOs and Linux). 
 
 This application can help you with turning any file into a .png image. Its like cryptography, but even at the time of release this tool cant guarantee anything. Its just a toy
 

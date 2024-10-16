@@ -63,6 +63,9 @@ public class FileProcessor {
         long endTime = System.nanoTime();
 
         long duration = (endTime - startTime) / 1_000_000;
-        System.out.println("\nПолное время выполнения конвертации: " + duration + " мс");
+
+        if (duration < 1000) {
+            System.out.println("\nПолное время выполнения конвертации: " + duration + " мс");
+        } else { System.out.println("\nПолное время выполнения конвертации: " + duration / 1000 + " секунд"); }
     }
 }
